@@ -1,19 +1,28 @@
 <script>
+import CompContacts from './CompsHeader/CompContacts.vue';
+import CompNavs from './CompsHeader/CompNavs.vue';
+
 export default {
     name: 'AppHeader',
+
+    components: {
+        CompContacts,
+        CompNavs,
+    },
+
 }
 
 </script>
 
 <template>
     <header>
-        <h1>Header</h1>
+        <CompContacts />
+        <CompNavs />
     </header>
 </template>
 
 <style lang="scss">
-header {
-    display: flex;
-    justify-content: center;
-}
+/*header {
+    backdrop-filter: blur(10px);
+}*/
 </style>
