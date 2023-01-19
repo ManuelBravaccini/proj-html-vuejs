@@ -10,8 +10,8 @@ export default {
     </section>
 </template>
 
-<style lang="scss">
-footer {
+<style lang="scss" scoped>
+section {
     display: flex;
     justify-content: center;
 }

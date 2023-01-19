@@ -11,8 +11,8 @@ export default {
     </footer>
 </template>
 
-<style lang="scss">
-section {
+<style lang="scss" scoped>
+footer {
     display: flex;
     justify-content: center;
 }

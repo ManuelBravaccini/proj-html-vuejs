@@ -10,7 +10,7 @@ export default {
     </section>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 section {
     display: flex;
     justify-content: center;

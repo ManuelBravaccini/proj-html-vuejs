@@ -27,15 +27,17 @@ export default {
 </script>
 
 <template>
-  <AppJumbo />
-  <AppGames />
-  <AppMatches />
-  <AppSquads />
-  <AppLives />
-  <AppProducts />
-  <AppBlogs />
-  <AppTestimonials />
-  <AppFooter />
+  <div class="wrapper">
+    <AppJumbo />
+    <AppGames />
+    <AppMatches />
+    <AppSquads />
+    <AppLives />
+    <AppProducts />
+    <AppBlogs />
+    <AppTestimonials />
+    <AppFooter />
+  </div>
 </template>
 
 <style lang="scss">
