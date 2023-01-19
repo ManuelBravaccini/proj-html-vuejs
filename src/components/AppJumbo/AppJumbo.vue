@@ -44,12 +44,11 @@ export default {
         max-width: 960px;
 
         section.jumbo {
-            height: 100vh;
             color: $text-color;
 
             aside {
                 width: 50%;
-                margin: 30% 0;
+                padding: 14rem 0;
                 line-height: 1.8rem;
 
                 h1,

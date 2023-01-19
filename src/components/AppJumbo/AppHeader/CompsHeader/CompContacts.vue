@@ -13,6 +13,10 @@ export default {
         </div>
         <div>
             <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-vimeo-v"></i>
+            <i class="fa-brands fa-skype"></i>
+            <i class="fa-solid fa-rss"></i>
         </div>
     </section>
 </template>
@@ -21,10 +25,16 @@ export default {
 section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     div {
         display: flex;
-        padding: 1rem;
+
+        p,
+        i {
+            padding: 1rem;
+
+        }
     }
 }
 </style>
