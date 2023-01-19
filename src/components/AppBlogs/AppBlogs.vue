@@ -1,18 +1,18 @@
 <script>
 export default {
-    name: 'AppMain',
+    name: 'AppBlogs',
 }
 
 </script>
 
 <template>
-    <main>
-        <h1>Main</h1>
-    </main>
+    <section>
+        <h1>Blogs</h1>
+    </section>
 </template>
 
 <style lang="scss">
-main {
+section {
     display: flex;
     justify-content: center;
 }
