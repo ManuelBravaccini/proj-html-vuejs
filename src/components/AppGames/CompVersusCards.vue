@@ -65,16 +65,16 @@ export default {
 @use './styles/partials/variables' as *;
 
 article {
-    width: calc(100% / 3 - 1rem);
     height: 150px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     background-color: $primary-color-light;
     border-radius: 5px;
+    margin: 1rem .5rem 0;
 
     img {
         height: 75px;
+        margin: .5rem;
     }
 
     img.versus-logo {
