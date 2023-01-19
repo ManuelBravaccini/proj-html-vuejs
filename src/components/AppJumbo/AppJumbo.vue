@@ -13,8 +13,7 @@ export default {
 </script>
 
 <template>
-    <div class="back">
-
+    <div class="background">
         <div class="container">
             <section class="jumbo">
                 <AppHeader />
