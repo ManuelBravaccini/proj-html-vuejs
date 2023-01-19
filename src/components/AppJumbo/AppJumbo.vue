@@ -17,7 +17,16 @@ export default {
         <div class="container">
             <section class="jumbo">
                 <AppHeader />
-                <h1>Jumbo</h1>
+                <aside>
+                    <h1 id="online-game">Online game</h1>
+                    <h2>Genuine money transaction</h2>
+                    <p>
+                        Assertively Communicate An Expanded Array Of Mindshare Rather Than Diverse Technologies For
+                        Magnetic
+                        Applications Eamlessly Virtual Then Conveniently Monetize Synergistic Human Capital
+                    </p>
+                    <button>Join us today</button>
+                </aside>
             </section>
         </div>
     </div>
@@ -33,12 +42,38 @@ export default {
     .container {
         margin: 0 auto;
         max-width: 960px;
+
+        section.jumbo {
+            height: 100vh;
+            color: $text-color;
+
+            aside {
+                width: 50%;
+                margin: 30% 0;
+                line-height: 1.8rem;
+
+                h1,
+                h2 {
+                    text-transform: uppercase;
+                }
+
+                #online-game {
+                    font-size: 5rem;
+                    margin-bottom: 2rem;
+                }
+
+                button {
+                    padding: 1rem;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: $secondary-color;
+                    background-color: $text-color;
+                    border-radius: 5px;
+                }
+            }
+        }
     }
 
-    section.jumbo {
-        height: 100vh;
-        color: $text-color;
-    }
 
 }
 </style>

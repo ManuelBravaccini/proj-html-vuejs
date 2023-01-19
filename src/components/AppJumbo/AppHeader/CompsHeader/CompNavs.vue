@@ -19,17 +19,35 @@ export default {
 
 <template>
     <nav>
-        <ul>
-            <li v-for="(navLinkEl, index) in navLinks" :key="index">
+        <img src="../../../../assets/imgs/logo.png" alt="Logo Gamer">
+        <div>
+            <a href="#" v-for="(navLinkEl, index) in navLinks" :key="index">
                 {{ navLinkEl.name }}
-            </li>
-        </ul>
+            </a>
+        </div>
     </nav>
 </template>
 
 <style lang="scss" scoped>
-ul {
+@use './styles/partials/variables' as *;
+
+nav {
+    height: 75px;
     display: flex;
-    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        display: flex;
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+            color: $text-color;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-right: 2rem;
+        }
+    }
 }
 </style>
