@@ -82,4 +82,28 @@ export const store = reactive({
         },
 
     ],
+    lives: [
+        {
+            title: '2022 LVP Superliga orange summer',
+            image: '01',
+        },
+        {
+            title: 'PUBG classic tournament',
+            image: '01',
+        },
+    ],
+    videos: [
+        {
+            title: 'Can i add my local bank...',
+            image: '05',
+        },
+        {
+            title: 'League battle tournament.',
+            image: '05',
+        },
+        {
+            title: 'Where can i redeem my...',
+            image: '05',
+        },
+    ],
 });

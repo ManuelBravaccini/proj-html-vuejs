@@ -11,7 +11,7 @@ export default {
 
 <template>
     <section class="app-squads">
-        <h5 class="sub-title">Out team players</h5>
+        <h5 class="sub-title">Our team players</h5>
         <h1 class="title">Meet our squad players</h1>
         <CompSquadCards />
         <section class="play-together container">
