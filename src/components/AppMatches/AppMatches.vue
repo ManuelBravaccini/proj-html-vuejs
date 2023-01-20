@@ -1,11 +1,15 @@
 <script>
 import { store } from '../store';
-import CompMatches from './CompMatches.vue';
+import CompLiveMatch from './CompLiveMatch.vue';
+import CompUpMatches from './CompUpMatches.vue';
+import CompPreMatches from './CompPreMatches.vue';
 
 export default {
     name: 'AppMatches',
     components: {
-        CompMatches,
+        CompLiveMatch,
+        CompUpMatches,
+        CompPreMatches,
     },
     data() {
         return {
@@ -16,13 +20,19 @@ export default {
 </script>
 
 <template>
-    <section>
+    <section class="app-matches">
         <div class="container">
             <h5 class="sub-title">Anywere, anytime</h5>
             <h1 class="title">All matches schedule</h1>
-            <div>
-                <CompMatches />
-            </div>
+            <CompLiveMatch />
+            <section class="all-matches">
+                <div class="up-matches">
+                    <CompUpMatches />
+                </div>
+                <div class="pre-matches">
+                    <CompPreMatches />
+                </div>
+            </section>
         </div>
     </section>
 </template>
@@ -30,13 +40,12 @@ export default {
 <style lang="scss" scoped>
 @use './styles/partials/variables' as *;
 
-section {
-    padding: 5rem 0;
+section.app-matches {
     background-image: url('../../assets/imgs/bg (1).jpg');
     background-size: cover;
-    height: 960px;
     display: flex;
     flex-direction: column;
+    padding: 3rem 0;
 
     h1.title {
         color: $text-color;
@@ -44,6 +53,10 @@ section {
 
     h5.sub-title {
         color: $secondary-color;
+    }
+
+    section.all-matches {
+        display: flex;
     }
 }
 </style>
