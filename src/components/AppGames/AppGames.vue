@@ -28,7 +28,7 @@ export default {
                     <p>Distinctly provide acces mutfuncto users whereas transparent processes somes ncentivizie
                         eficient functionalities rather than an extensible archtectur services and cross</p>
                     <div class="achievements">
-                        <img class="icon-stats" src="../../assets/imgs/icon-2.png" alt="Gamepad">
+                        <img class="icon-stats" src="../../assets/imgs/icon-1.png" alt="Gamepad">
                         <div>
                             <h3>103K COMMUNITY EARNING</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora quae natus voluptas
@@ -38,15 +38,15 @@ export default {
                     <div class="achievements">
                         <img class="icon-stats" src="../../assets/imgs/icon-2.png" alt="Gamepad">
                         <div>
-                            <h3>103K COMMUNITY EARNING</h3>
+                            <h3>34M+ REGISTERED PLAYERS</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora quae natus voluptas
                                 exercitationem ea praesentium.</p>
                         </div>
                     </div>
                     <div class="achievements">
-                        <img class="icon-stats" src="../../assets/imgs/icon-2.png" alt="Gamepad">
+                        <img class="icon-stats" src="../../assets/imgs/icon-3.png" alt="Gamepad">
                         <div>
-                            <h3>103K COMMUNITY EARNING</h3>
+                            <h3>240K STREAMS COMPLETE</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora quae natus voluptas
                                 exercitationem ea praesentium.</p>
                         </div>
@@ -127,7 +127,7 @@ section {
                 margin-right: 1rem;
                 height: 50px;
                 width: 50px;
-                padding: .5rem;
+                padding: .75rem;
                 border-radius: 50%;
                 background-color: $secondary-color;
             }
