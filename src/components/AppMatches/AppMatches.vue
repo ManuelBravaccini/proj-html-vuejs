@@ -1,9 +1,12 @@
 <script>
 import { store } from '../store';
+import CompMatches from './CompMatches.vue';
 
 export default {
     name: 'AppMatches',
-
+    components: {
+        CompMatches,
+    },
     data() {
         return {
             store,
@@ -17,6 +20,9 @@ export default {
         <div class="container">
             <h5 class="sub-title">Anywere, anytime</h5>
             <h1 class="title">All matches schedule</h1>
+            <div>
+                <CompMatches />
+            </div>
         </div>
     </section>
 </template>
