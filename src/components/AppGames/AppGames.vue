@@ -18,7 +18,7 @@ export default {
             <div class="versus-cards">
                 <CompVersusCards />
             </div>
-            <button>Browse all games</button>
+            <button class="btn-white">Browse all games</button>
             <hr>
             <div class="pro-team">
                 <img src="../../assets/imgs/01.png" alt="Girl gamer">
@@ -91,17 +91,6 @@ section {
             display: flex;
             justify-content: space-between;
         }
-
-        button {
-            margin-top: 2rem;
-            padding: 1rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: $secondary-color;
-            background-color: $text-color;
-            border-radius: 5px;
-        }
-
     }
 
     hr {

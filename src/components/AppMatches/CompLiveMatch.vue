@@ -48,6 +48,7 @@ export default {
 section.match-card {
     margin: 2rem;
     width: 100%;
+    height: 175px;
 }
 
 div.prize-pool {
@@ -69,7 +70,7 @@ article {
 
     img.squad-logo {
         margin: 1rem;
-        width: 70px;
+        height: 70px;
     }
 
     .social-logos {

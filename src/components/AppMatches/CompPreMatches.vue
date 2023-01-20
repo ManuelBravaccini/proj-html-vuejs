@@ -53,6 +53,7 @@ h1 {
 
 section.match-card {
     margin-bottom: 1rem;
+    height: 175px;
 }
 
 div.prize-pool {
@@ -74,7 +75,7 @@ article {
 
     img.squad-logo {
         margin: 1rem;
-        width: 50px;
+        height: 70px;
     }
 
     .social-logos {

@@ -39,6 +39,7 @@ section.squad-card {
     display: flex;
     overflow: auto;
     gap: 20px;
+    margin-bottom: 2.5rem;
 
     article {
         display: flex;
@@ -68,22 +69,4 @@ section.squad-card {
         }
     }
 }
-
-
-/*
-section {
-    flex-direction: column;
-    background-color: $primary-color;
-    height: 960px;
-    text-align: center;
-    padding: 5rem 0;
-
-    h1.title {
-        color: $text-color;
-    }
-
-    h5.sub-title {
-        color: $secondary-color;
-    }
-}*/
 </style>

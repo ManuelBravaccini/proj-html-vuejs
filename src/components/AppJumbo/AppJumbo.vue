@@ -25,7 +25,7 @@ export default {
                         Magnetic
                         Applications Eamlessly Virtual Then Conveniently Monetize Synergistic Human Capital
                     </p>
-                    <button>Join us today</button>
+                    <button class="btn-white">Join us today</button>
                 </aside>
             </section>
         </div>
@@ -59,15 +59,6 @@ export default {
                 #online-game {
                     font-size: 5rem;
                     margin-bottom: 2rem;
-                }
-
-                button {
-                    padding: 1rem;
-                    font-weight: bold;
-                    text-transform: uppercase;
-                    color: $secondary-color;
-                    background-color: $text-color;
-                    border-radius: 5px;
                 }
             }
         }

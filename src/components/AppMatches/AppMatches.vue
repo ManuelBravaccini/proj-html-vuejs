@@ -33,6 +33,7 @@ export default {
                     <CompPreMatches />
                 </div>
             </section>
+            <button class="btn-white">Browse all matches</button>
         </div>
     </section>
 </template>
