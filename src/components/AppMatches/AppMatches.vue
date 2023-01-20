@@ -1,6 +1,14 @@
 <script>
+import { store } from '../store';
+
 export default {
     name: 'AppMatches',
+
+    data() {
+        return {
+            store,
+        }
+    },
 }
 </script>
 
@@ -17,6 +25,7 @@ export default {
 @use './styles/partials/variables' as *;
 
 section {
+    padding: 5rem 0;
     background-image: url('../../assets/imgs/bg (1).jpg');
     background-size: cover;
     height: 960px;
