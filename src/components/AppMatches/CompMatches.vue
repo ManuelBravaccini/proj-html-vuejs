@@ -18,10 +18,14 @@ export default {
 </script>
 
 <template>
+    <div class="prize-pool">
+        <h3>2 GROUP 32 PLAYERS</h3>
+        <h3>PRIZE POOL $3200</h3>
+    </div>
     <article>
         <img :src="getIconPath(store.squads[0].logo)" alt="Squad logo">
         <div class="torunament-infos">
-            CALL OF DUTY TOURNAMENT
+            <h2>CALL OF DUTY TOURNAMENT</h2>
             <p>
                 {{ store.squads[0].date }} | {{ store.squads[0].time }}
             </p>
@@ -38,6 +42,14 @@ export default {
 <style lang="scss" scoped>
 @use './styles/partials/variables' as *;
 
+div.prize-pool {
+    background-color: $secondary-color;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    color: $text-color;
+}
+
 article {
     display: flex;
     justify-content: space-between;
@@ -45,6 +57,7 @@ article {
     background-color: $text-color;
     padding: 1rem;
     text-align: center;
+
 
     img {
         margin: 1rem;
